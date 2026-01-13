@@ -2,9 +2,9 @@ number = int(input("enter number: "))
 
 def factorial(num):
     res = 1
-    for i in range(1, num+1):
-        res  = res * i
-    return res
+    for i in range(1 , num+1):
+        res = res * i
+    return res 
 print(factorial(number))
 
 # By recursion 
